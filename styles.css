@@ -1,0 +1,67 @@
+body{
+    background-color: #424242;
+}
+
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   padding: 15px;
+   width: 100%;
+   background-color: maroon;
+   color: white;
+   text-align: center;
+}
+
+.footer-link{
+    padding: 50px;
+    color:white;
+    font-size: larger;
+}
+
+@media only screen and (min-width: 961px) {
+    .container {
+        border: 2px black;
+        display: flex;
+        text-align: center;
+    }
+  }
+
+
+h2{
+    text-align: center;
+    margin: 5px;
+    color: palegoldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 64px;
+    color: whitesmoke;
+}
+
+p{
+    text-align: center;
+    margin: 5px;
+}
+
+form, .centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+label{
+    color: palegoldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.quoted{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
